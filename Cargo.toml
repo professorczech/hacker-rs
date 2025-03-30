@@ -1,0 +1,23 @@
+[package]
+name = "hacker-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ollama-rs = { version = "0.2.6", features = ["stream"] }
+tokio = { version = "1.44.1", features = ["full"] }
+serde = { version = "1.0.219", features = ["derive"] }
+toml = "0.8.2"
+clap = { version = "4.5.34", features = ["derive"] }
+anyhow = "1.0.97"
+thiserror = "2.0.12"
+serde_json = "1.0.140"
+regex = "1.11.1"
+shellexpand = "3.1.0"
+sysinfo = "0.34.1"
+os_info = "3.10.0"
+reqwest = "0.12.15"
+winreg = "0.55.0"  # Windows-only dependency
+directories-next = "2.0"  # More modern alternative to dirs
+which ="7.0.2"
+winapi = { version = "0.3.9", features = ["securitybaseapi", "winnt"] }

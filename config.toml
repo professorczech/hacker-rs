@@ -1,0 +1,9 @@
+[model]
+name = "deepscaler:latest"
+temperature = 0.7
+max_tokens = 1000
+
+ollama_host = "http://localhost:11434"
+
+[advanced]
+qwen_formatting = true  
