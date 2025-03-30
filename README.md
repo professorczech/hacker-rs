@@ -2,8 +2,6 @@
 
 A Rust-powered cybersecurity assistant leveraging local AI models through Ollama. Designed for penetration testers and security researchers to execute complex security tasks through natural language prompts.
 
-![CLI Demo](https://via.placeholder.com/800x400.png?text=CLI+Demo+GIF+Placeholder)
-
 ## Features
 
 - 🚀 Local AI processing with Ollama integration
